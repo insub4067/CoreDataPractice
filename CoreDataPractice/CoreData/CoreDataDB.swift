@@ -20,7 +20,7 @@ class CoreDataDB {
         loadStores()
     }
     
-    func loadStores() {
+    private func loadStores() {
         container.loadPersistentStores(completionHandler: { _, _ in })
     }
     
