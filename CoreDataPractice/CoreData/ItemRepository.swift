@@ -25,7 +25,7 @@ private extension ItemRepository {
     }
 }
 
-extension ItemRepository {
+extension ItemRepository: ItemRepositoriable {
     
     func create(_ item: ItemDTO) {
         let new = Item(context: db.context)

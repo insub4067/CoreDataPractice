@@ -9,9 +9,9 @@ import Foundation
 
 class ContentViewModel: ObservableObject {
     
-    private let repository: ItemRepository
+    private let repository: ItemRepositoriable
     
-    init(repository: ItemRepository = ItemRepository()) {
+    init(repository: ItemRepositoriable = ItemRepository()) {
         self.repository = repository
     }
     
