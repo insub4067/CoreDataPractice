@@ -73,6 +73,7 @@
 				FBC6133F2AE8E75E00C95011 /* CoreDataPracticeApp.swift */,
 				FBC613412AE8E75E00C95011 /* ContentView.swift */,
 				FBC613672AE8ED6700C95011 /* ContentViewModel.swift */,
+				FBC6138A2AE909BB00C95011 /* ItemModule */,
 				FBC613712AE8EEFF00C95011 /* Utils */,
 				FBC613532AE8E83500C95011 /* CoreData */,
 				FBC613432AE8E75F00C95011 /* Assets.xcassets */,
@@ -93,23 +94,21 @@
 		FBC613532AE8E83500C95011 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				FBC6135E2AE8EC1E00C95011 /* Models */,
+				FBC6138B2AE90A0800C95011 /* Repository */,
+				FBC6135E2AE8EC1E00C95011 /* DTO */,
 				FBC6134E2AE8E79C00C95011 /* CoreData.xcdatamodeld */,
-				FBC613512AE8E7DA00C95011 /* ItemRepository.swift */,
-				FBC613862AE8FC4B00C95011 /* ItemRepositoriable.swift */,
 				FBC613882AE8FE0000C95011 /* CoreDataDB.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		FBC6135E2AE8EC1E00C95011 /* Models */ = {
+		FBC6135E2AE8EC1E00C95011 /* DTO */ = {
 			isa = PBXGroup;
 			children = (
 				FBC613802AE8F45100C95011 /* ItemDTO+CoreDataClass.swift */,
 				FBC613812AE8F45100C95011 /* ItemDTO+CoreDataProperties.swift */,
-				FBC613842AE8F45D00C95011 /* ItemEntity.swift */,
 			);
-			path = Models;
+			path = DTO;
 			sourceTree = "<group>";
 		};
 		FBC613712AE8EEFF00C95011 /* Utils */ = {
@@ -118,6 +117,23 @@
 				FBC613722AE8EF0A00C95011 /* SelfReturnable.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBC6138A2AE909BB00C95011 /* ItemModule */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613842AE8F45D00C95011 /* ItemEntity.swift */,
+				FBC613862AE8FC4B00C95011 /* ItemRepositoriable.swift */,
+			);
+			path = ItemModule;
+			sourceTree = "<group>";
+		};
+		FBC6138B2AE90A0800C95011 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613512AE8E7DA00C95011 /* ItemRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

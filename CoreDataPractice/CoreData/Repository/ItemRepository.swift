@@ -10,17 +10,14 @@ import CoreData
 final class ItemRepository {
     
     private let db = CoreDataDB.shared
-}
-
-private extension ItemRepository {
     
-    func getAll() -> [ItemDTO] {
+    private func getAll() -> [ItemDTO] {
         let request: NSFetchRequest<ItemDTO> = ItemDTO.fetchRequest()
         let result = try? db.context.fetch(request)
         return result ?? []
     }
     
-    func getItem<T: Equatable>(_ keyPath: WritableKeyPath<ItemDTO, T>, _ value: T) -> ItemDTO? {
+    private func getItem<T: Equatable>(_ keyPath: WritableKeyPath<ItemDTO, T>, _ value: T) -> ItemDTO? {
         getAll().filter { $0[keyPath: keyPath] == value }.first
     }
 }
