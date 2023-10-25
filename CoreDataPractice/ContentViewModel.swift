@@ -17,7 +17,7 @@ class ContentViewModel: ObservableObject {
     
     func onAppear() {
         
-        let new = ItemDTO(id: 1, name: "name")
+        let new = ItemEntity(id: 1, name: "name")
         repository.create(new)
         
         let edited = new.with(\.name, "new name")

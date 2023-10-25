@@ -9,9 +9,9 @@ import Foundation
 
 protocol ItemRepositoriable {
     
-    func create(_ item: ItemDTO)
-    func edit(_ item: ItemDTO)
-    func getItem<T: Equatable>(_ keyPath: WritableKeyPath<ItemDTO, T>, _ value: T) -> ItemDTO?
-    func getAllItems() -> [ItemDTO]
-    func delete(_ item: ItemDTO)
+    func create(_ item: ItemEntity)
+    func edit(_ item: ItemEntity)
+    func getItem<T: Equatable>(_ keyPath: WritableKeyPath<ItemEntity, T>, _ value: T) -> ItemEntity?
+    func getAllItems() -> [ItemEntity]
+    func delete(_ item: ItemEntity)
 }

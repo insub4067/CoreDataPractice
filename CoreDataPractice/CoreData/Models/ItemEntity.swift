@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ItemDTO: SelfReturnable {
+struct ItemEntity: SelfReturnable {
     var id: Int16
     var name: String?
 }
