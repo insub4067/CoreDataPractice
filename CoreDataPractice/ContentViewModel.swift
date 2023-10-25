@@ -9,7 +9,11 @@ import Foundation
 
 class ContentViewModel: ObservableObject {
     
-    private let repository: ItemRepository = ItemRepository.shared
+    private let repository: ItemRepository
+    
+    init(repository: ItemRepository = ItemRepository()) {
+        self.repository = repository
+    }
     
     func onAppear() {
         

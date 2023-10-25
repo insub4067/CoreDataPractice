@@ -19,6 +19,7 @@
 		FBC613832AE8F45100C95011 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613812AE8F45100C95011 /* Item+CoreDataProperties.swift */; };
 		FBC613852AE8F45D00C95011 /* ItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613842AE8F45D00C95011 /* ItemDTO.swift */; };
 		FBC613872AE8FC4B00C95011 /* ItemRepositoriable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613862AE8FC4B00C95011 /* ItemRepositoriable.swift */; };
+		FBC613892AE8FE0000C95011 /* CoreDataDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613882AE8FE0000C95011 /* CoreDataDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FBC613812AE8F45100C95011 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FBC613842AE8F45D00C95011 /* ItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDTO.swift; sourceTree = "<group>"; };
 		FBC613862AE8FC4B00C95011 /* ItemRepositoriable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRepositoriable.swift; sourceTree = "<group>"; };
+		FBC613882AE8FE0000C95011 /* CoreDataDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				FBC6134E2AE8E79C00C95011 /* CoreData.xcdatamodeld */,
 				FBC613512AE8E7DA00C95011 /* ItemRepository.swift */,
 				FBC613862AE8FC4B00C95011 /* ItemRepositoriable.swift */,
+				FBC613882AE8FE0000C95011 /* CoreDataDB.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				FBC613852AE8F45D00C95011 /* ItemDTO.swift in Sources */,
 				FBC613422AE8E75E00C95011 /* ContentView.swift in Sources */,
 				FBC613732AE8EF0A00C95011 /* SelfReturnable.swift in Sources */,
+				FBC613892AE8FE0000C95011 /* CoreDataDB.swift in Sources */,
 				FBC613822AE8F45100C95011 /* Item+CoreDataClass.swift in Sources */,
 				FBC613872AE8FC4B00C95011 /* ItemRepositoriable.swift in Sources */,
 				FBC613832AE8F45100C95011 /* Item+CoreDataProperties.swift in Sources */,
