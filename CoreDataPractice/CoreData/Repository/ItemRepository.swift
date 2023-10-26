@@ -45,7 +45,7 @@ extension ItemRepository: ItemRepositoriable {
     
     func getAllItems() -> [ItemEntity] {
         let request: NSFetchRequest<ItemDTO> = ItemDTO.fetchRequest()
-        let result = try? db.context.fetch(request).map { $0.map }
+        let result = try? db.context.fetch(request).map { $0.model }
         return result ?? []
     }
     
